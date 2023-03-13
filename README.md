@@ -11,3 +11,6 @@ checkpoint = "./roberta-base"
 tokenizer = AutoTokenizer.from_pretrained("roberta-base")
 tokenizer.save_pretrained("./checkpooint/token/roberta-base")
 ```
+
+并发
+In distributed training, the load_dataset function guarantee that only one local process can concurrently
