@@ -13,4 +13,5 @@ tokenizer.save_pretrained("./checkpooint/token/roberta-base")
 ```
 
 并发  
-In distributed training, the load_dataset function guarantee that only one local process can concurrently
+In distributed training, the load_dataset function guarantee that only one local process can concurrently   
+In distributed training, the .from_pretrained methods guarantee that only one local process can concurrently
