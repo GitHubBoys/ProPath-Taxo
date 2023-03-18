@@ -18,3 +18,9 @@ In distributed training, the .from_pretrained methods guarantee that only one lo
 ```
 --per_device_train_batch_size 16 \ 暂时不用
 ```
+```
+ # 这里将Dataset文件中的map方法属性修改，因为每次加载都会有进度条
+disable_tqdm = not logging.is_progress_bar_enabled()
+disable_tqdm = True
+negative_dataset = Dataset.from_list(negtive_sequence)
+```
