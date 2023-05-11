@@ -24,3 +24,15 @@ disable_tqdm = not logging.is_progress_bar_enabled()
 disable_tqdm = True
 negative_dataset = Dataset.from_list(negtive_sequence)
 ```
+
+#文件
+```
+读取childs，供sibling比较使用
+mag_cs_read_childs.py
+#读取path、生成数据集等
+mag_cs_read_allNode.py
+#beam-search链接预测
+TaxoComp_link_prediction_beam_search.py
+#三元组分类任务
+TaxoComp.py
+```
