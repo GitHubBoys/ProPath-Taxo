@@ -29,10 +29,15 @@ negative_dataset = Dataset.from_list(negtive_sequence)
 ```
 读取childs，供sibling比较使用
 mag_cs_read_childs.py
-#读取path、生成数据集等
+#读取path、生成格式数据集等
 mag_cs_read_allNode.py
 #beam-search链接预测
 TaxoComp_link_prediction_beam_search.py
 #三元组分类任务
 TaxoComp.py
+#数据集不同拆分
+mag_cs_t_v_t.py    jsonl\text
+mag_cs_t_v_t_tsv.py
+mag_cs_t_v_t_csv.py
+
 ```
