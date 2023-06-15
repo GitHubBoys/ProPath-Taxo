@@ -40,4 +40,12 @@ mag_cs_t_v_t.py    jsonl\text
 mag_cs_t_v_t_tsv.py
 mag_cs_t_v_t_csv.py
 
+#读取数据集，并非只是叶子节点
+mag_cs_read_dataset_norm.py
+#正常数据集
+mag_cs_dataset_no_prompt.jsonl
+mag_cs_dataset_norm.jsonl
+#41008148下节点数据集
+mag_cs_dataset_no_prompt_41008148.jsonl
+mag_cs_dataset_41008148.jsonl
 ```
