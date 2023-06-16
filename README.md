@@ -48,4 +48,6 @@ mag_cs_dataset_norm.jsonl
 #41008148下节点数据集
 mag_cs_dataset_no_prompt_41008148.jsonl
 mag_cs_dataset_41008148.jsonl
+#读取embedding
+mag_cs_read_instructor_large_embedding.py
 ```
