@@ -50,4 +50,6 @@ mag_cs_dataset_no_prompt_41008148.jsonl
 mag_cs_dataset_41008148.jsonl
 #读取embedding
 mag_cs_read_instructor_large_embedding.py
+#每一个节点加入隔1层正样本
+mag_cs_read_dataset_norm_other_positive.py
 ```
